@@ -19,8 +19,8 @@ nav{
 
 #item1 li a{
     color: #33603F;
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 24px;
+    font-weight: 600;
     text-decoration: dashed;
 }
 
@@ -31,14 +31,13 @@ nav{
     text-decoration: dashed;
 }
 
-#item2 li{
-    text-decoration: dashed;
-    text-align: left;
-    align-items: start;
-}
+
 
 #login{
     align-items: end;
     align-content: end;
+    float: right;
+    position: absolute;
+    right: 0;
 }
 

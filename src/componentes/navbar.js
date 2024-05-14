@@ -17,11 +17,11 @@ class Navbar extends Component {
             </div>
             <div>
                 <ul id='item2' className={this.state.clicked ? "#item2 active" : "#item2"}>
-                    <li><Link to="/">Cadastre-se</Link></li>
-                    <li><Link to="/">Encontre um amigo</Link></li>
+                    <li><Link to="/cadastro">Cadastre-se   </Link></li>
+                    <li><Link to="/galeria">Encontre um amigo  </Link></li>
                 </ul>
             </div>
-            <div id='login'>
+            <div id='login'> Já tenho cadastro : 
                 <input
                 class="input" 
                 type="email"

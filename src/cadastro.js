@@ -9,34 +9,30 @@ function Cadastro() {
         <div>
             <div>
                 <div className='imagem'>
-                    <img className='img2' src={cadastro} alt='Imagem'/>
+                    <img id='imagem2' className='img2' src={cadastro} alt='Imagem'/>
                 </div>
             </div>
-            <div className='texto2'>
-                    <p>
-                    Cadastre-se
-                    </p>
-            </div>
-            <div id='login2'>
-                <input
+
+            <div id='login2' > Cadastre-se
+                <p><input
                 class="input" 
                 type="email"
                 className='login3'
                 placeholder='E-mail'
-                />
-                <input
+                /> </p>
+                <p><input
                 class="input" 
                 type="nome"
                 className='login4'
                 placeholder='Nome'
-                />
+                /></p>
                 <input
                 class="input" 
                 type="senha"
                 className='login5'
                 placeholder='Senha'
                 />
-                <button className='botao' type='submit'>Cadastrar</button>
+               <p> <button className='botao' type='submit'>Cadastrar</button> </p>
             </div>
         </div>
 
